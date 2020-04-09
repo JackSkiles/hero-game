@@ -16,8 +16,9 @@ class Stats():
     def print_status(self, target):
         return (f"{target.name} has %d health and %d power." % (target.health, target.power))
             
-    def attack(self, attacker, target,):
+    def attack(self, attacker, target):
         target.health -= attacker.power
+        print(f'{attacker.name} does %d damage to {target.name}' % attacker.power)
 
 
 

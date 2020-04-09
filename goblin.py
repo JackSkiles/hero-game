@@ -1,5 +1,6 @@
 from lib.stats import Stats
 
 class Goblin(Stats):
-    def attack(self, target):
-        target.health -= self.power
+    pass
+
+#Create a zombie character that cannot die and have it fight the hero instead of the goblin.

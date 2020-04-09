@@ -7,3 +7,7 @@ class Hero(Stats):
 
     def __repr__(self):
         print(f'heros health is: {self.health}')
+    
+    
+    def attack(self, target):
+        target.health = target.health - self.power
